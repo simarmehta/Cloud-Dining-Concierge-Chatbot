@@ -1,0 +1,17 @@
+Index creation:
+--------------
+
+curl -u master1:Master@123 -X PUT "https://search-restaurant-es-yz6gryc6wtcqpdj2cergutz37a.us-east-1.es.amazonaws.com/restindex?pretty"
+
+
+Bulk Loading of Data:
+---------------------
+curl -XPUT -u 'master1:Master@123' 'https://search-restaurant-es-yz6gryc6wtcqpdj2cergutz37a.us-east-1.es.amazonaws.com/restindex/_bulk?pretty' --data-binary @/home/cloudshell-user/data_rest.json -H 'Content-Type: application/json'
+
+
+Search Index:
+-------------
+curl -XGET -u 'master1:Master@123' 'https://search-restaurant-es-yz6gryc6wtcqpdj2cergutz37a.us-east-1.es.amazonaws.com/restindex/_search?q=chinese&pretty=true'
+
+
+
