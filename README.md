@@ -8,16 +8,7 @@ This project demonstrates the implementation of a **Cloud-based Dining Concierge
 - [Architecture](#architecture)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Setup and Installation](#setup-and-installation)
-- [AWS Service Setup](#aws-service-setup)
-- [Local Development](#local-development)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
