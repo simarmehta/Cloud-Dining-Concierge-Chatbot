@@ -26,7 +26,7 @@ Based on the inputs, the chatbot searches for appropriate restaurant options and
 
 The chatbot system is built using AWS services, allowing for a highly scalable and serverless architecture.
 
-![Architecture Diagram](https://example.com/path/to/your/diagram.png)
+
 
 1. **Amazon Lex**: The user interacts with the chatbot via Lex, which handles Natural Language Processing (NLP) and intent recognition.
 2. **AWS Lambda**: Lex triggers Lambda functions to process inputs, perform business logic (search restaurants, manage reservations), and communicate with DynamoDB.
